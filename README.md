@@ -4,7 +4,7 @@ Se creó este predictor de Bitcoin/Pesos Mexicanos utilizando la Api de Bitso y 
 
 ## Paso 1.-
 Hacer llamadas a la Api de Bitso para obtener nuestro primer data frame con el cuál trabajaremos posteriormente.
-Empezamos a recopilar información a partir del 1 de enero del 2019.
+Empezamos a recopilar información a partir del 1 de enero del 2019.*
 Ésta información contiene: el precio, el día, el mes, el año y cuál fue la posición de mercado que más predominó.
 Guardamos ésta información en un archivo formato .csv para poder utilizarla después.
 
@@ -40,4 +40,5 @@ Por último creamos una función que genere una gráfica con la información del
 
 **
 1. El día de hoy es a partir de que el usuario corre el programa y se guarda el archivo .html con la predicción.
-2. El máximo posible se refiere a cada día creado en la predicción.
+2. En la carpeta csv_files se encuentra el archivo historic_data.csv el cuál contiene la información histórica a partir del 1 de enero del 2019 hasta la fecha del último commit realizado a este repositorio.
+3. El máximo posible se refiere a cada día creado en la predicción.
